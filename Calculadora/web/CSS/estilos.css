@@ -146,7 +146,24 @@ background: #344B54;
 	font-size: 1.2em;
 	font-style: italic;
 	margin-bottom: 0;
-	padding: 1em 1em 0 0;
+	padding: 1em 1em 0 1em;
+}
+#contenido .item .titulo_item .formulario{
+    
+    /*	text-align: right;*/
+    padding: 0em 1em 0em 0.5em;
+
+}
+#contenido .item .titulo_item .formulario input{
+
+        border-radius: 5px;
+	padding: 0em 0.2em 0em 0em;
+}
+#contenido .item .titulo_item .formulario input[type="text"]{
+    
+	border: 1px solid #888;
+        text-align: right;
+        width: 100%;
 }
 /*#contenido .item .titulo_item a
 {
