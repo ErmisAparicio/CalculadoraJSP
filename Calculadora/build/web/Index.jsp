@@ -42,8 +42,65 @@ and open the template in the editor.
                 <div class = "titulo_item">
                     <form method= get action="" id="formulario" class="formulario">
                         <input type="text" placeholder="0" id="titulo" name="titulo" readonly="">
-                        <!--<input type="text" placeholder="Link" id="link" name="link" >
-                        <input type="submit" value="Agregar">-->
+                        <!--<input type="text" placeholder="Link" id="link" name="link" >-->
+                        <div class="botonesMemoria">
+                            <input type="submit" value="Deg">
+                            <input type="submit" value="(">
+                            <input type="submit" value=")">
+                            <input type="submit" value="%">
+                            <input type="submit" value="MC">
+                            <input type="submit" value="M+">
+                            <input type="submit" value="M-">
+                            <input type="submit" value="MR">
+                        </div>
+                        <div class="botonesMemoria">
+                            <input type="submit" value="1/X">
+                            <input type="submit" value="χ2">
+                            <input type="submit" value="χ3">
+                            <input type="submit" value="Y^X">
+                            <input type="submit" value="C">
+                            <input type="submit" value="+/-">
+                            <input type="submit" value="÷">
+                            <input type="submit" value="x">
+                        </div>
+                         <div class="botonesMemoria">
+                            <input type="submit" value="X!">
+                            <input type="submit" value="√">
+                            <button title="y-th Root of Number x, sqrt(x, y)" ><i>y</i><b>√</b>x</button>
+                            <input type="submit" value="log">
+                            <input type="submit" value="7">
+                            <input type="button" value="8">
+                            <input type="submit" value="9">
+                            <input type="submit" value="-">
+                        </div>
+                        <div class="botonesMemoria">
+                            <input type="submit" value="sin">
+                            <input type="submit" value="cos">
+                            <input type="submit" value="tan">
+                            <input type="submit" value="In">
+                            <input type="submit" value="4">
+                            <input type="submit" value="5">
+                            <input type="submit" value="6">
+                            <input type="submit" value="+">
+                        </div>
+                        <div class="botonesMemoria">
+                            <input type="submit" value="sinh">
+                            <input type="submit" value="cosh">
+                            <input type="submit" value="tanh">
+                            <input type="submit" value="eX">
+                            <input type="submit" value="1">
+                            <input type="submit" value="2">
+                            <input type="submit" value="3">
+                           <!-- <input type="submit" class="btnIgual" value="=">-->
+                        </div>
+                        <div class="botonesMemoria">
+                            <input type="submit" value="2nd">
+                            <input type="submit" value="π">
+                            <input type="submit" value="EE">
+                            <input type="submit" value="rnd">
+                            <input type="submit" class="btnCero" value="0">
+                            <input type="submit" value=".">
+                        </div>
                     </form>
                 </div>
             </article>
